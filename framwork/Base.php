@@ -1,5 +1,6 @@
 <?php
-class Base {
+class Base
+{ // first push from sakib
     public $basePath;
     public $controller;
     public $id;
@@ -76,6 +77,7 @@ class Base {
             case "PUT":  // update
             case "DELETE": // delete
                 break;
+
         }
         // set param id to the id we have
         if(!empty($id)){
