@@ -7,6 +7,7 @@ class Base {
     private $route;
     private $params;
     function __construct($route){
+        $this->params = array();
         $this->route = $route;
         $this->basePath = ROOT;
         $this->includeNecessaryFile();
@@ -89,7 +90,6 @@ class Base {
     }
 
     function includeNecessaryFile() {
-        echo $this->basePath . DS . "framwork" . DS . "Controller.php";
         require_once($this->basePath . DS . "framwork" . DS . "Controller.php");
     }
 }
