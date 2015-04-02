@@ -6,7 +6,7 @@ class Controller {
     public $app;
     public $params;
 
-    function __construct($name, $actionName, $params, $app) {
+    function __construct($name, $actionName, $params, Base $app) {
         $this->rootPath = ROOT;
         $this->name = $name;
         $this->actionName = $actionName;
