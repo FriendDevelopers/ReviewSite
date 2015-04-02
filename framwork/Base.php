@@ -120,7 +120,6 @@ class Base
         $this->_view = call_user_func_array(array($dispatch, $m), $params_new);
         // finally, we print it out
         if($this->_view){
-            echo $this->_view;
         }
     }
 }
