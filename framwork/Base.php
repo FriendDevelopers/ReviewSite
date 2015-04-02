@@ -1,31 +1,28 @@
 <?php
-class Base
-{ // first push from sakib
-    //2nd push from sakib
+class Base {
     public $basePath;
     public $controller;
     public $id;
     public $action;
     private $route;
+    private $params;
     function __construct($route){
         $this->route = $route;
+        $this->basePath = ROOT;
+        $this->includeNecessaryFile();
+        $this->dispatch();
     }
 
     function parseRoute() {
         $id = false;
-        // parse path info
-        if (isset($this->_route)){
-            // the request path
+        if (isset($this->route)){
             $path = $this->route;
-            // the rules to route
             $cai =  '/^([\w]+)\/([\w]+)\/([\d]+).*$/';  //  controller/action/id
             $ci =   '/^([\w]+)\/([\d]+).*$/';           //  controller/id
             $ca =   '/^([\w]+)\/([\w]+).*$/';           //  controller/action
             $c =    '/^([\w]+).*$/';                    //  action
             $i =    '/^([\d]+).*$/';                    //  id
-            // initialize the matches
             $matches = array();
-            // if this is home page route
             if (empty($path)){
                 $this->controller = 'index';
                 $this->action = 'index';
@@ -46,41 +43,30 @@ class Base
                 $id = $matches[1];
             }
 
-            // get query string from url
             $query = array();
             $parse = parse_url($path);
-            // if we have query string
             if(!empty($parse['query'])){
-                // parse query string
                 parse_str($parse['query'], $query);
-                // if query paramater is parsed
                 if(!empty($query)){
-                    // merge the query paramaters to $_GET variables
                     $_GET = array_merge($_GET, $query);
-                    // merge the query paramaters to $_REQUEST variables
                     $_REQUEST = array_merge($_REQUEST, $query);
                 }
             }
         }
-
-        // gets the request method
         $method = $_SERVER["REQUEST_METHOD"];
-
-        // assign params by methods
         switch($method){
-            case "GET": // view
-                // we need to remove _route in the $_GET params
+            case "GET":
                 unset($_GET['_route']);
-                // merege the params
-                $this->_params = array_merge($this->_params, $_GET);
+                $this->params = array_merge($this->params, $_GET);
                 break;
-            case "POST": // create
-            case "PUT":  // update
-            case "DELETE": // delete
+            case "POST":
+                $this->params = array_merge($this->params, $_POST);
+                break;
+            case "PUT":
+            case "DELETE":
                 break;
 
         }
-        // set param id to the id we have
         if(!empty($id)){
             $this->id=$id;
         }
@@ -88,39 +74,22 @@ class Base
 
     function dispatch(){
         $this->parseRoute();
-        // set controller name
+        $this->includeControllerClass();
         $controllerName = $this->controller;
-
-        // assign controller full name
         $this->controller .= 'Controller';
-        // if we have extended controller
-        $this->controller = class_exists($this->_controller) ? $this->controller : 'Controller';
-        // construct the controller class
-        $dispatch = new $this->controller($controllerName, $this->action);
-        // if we have action function in controller
-        $hasActionFunction = (int)method_exists($this->controller, $this->action);
-        // we need to reference the parameters to a correct order in order to match the arguments order
-        // of the calling function
-        $c = new ReflectionClass($this->_controller);
-        $m = $hasActionFunction ? $this->_action : 'defaultAction';
-        $f = $c->getMethod($m);
-        $p = $f->getParameters();
-        $params_new = array();
-        $params_old = $this->_params;
-        // re-map the parameters
-        for($i = 0; $i<count($p);$i++){
-            $key = $p[$i]->getName();
-            if(array_key_exists($key,$params_old)){
-                $params_new[$i] = $params_old[$key];
-                unset($params_old[$key]);
-            }
-        }
-        // after reorder, merge the leftovers
-        $params_new = array_merge($params_new, $params_old);
-        // call the action method
-        $this->_view = call_user_func_array(array($dispatch, $m), $params_new);
-        // finally, we print it out
-        if($this->_view){
-        }
+        $this->controller = class_exists($this->controller) ? $this->controller : 'Controller';
+        $controllerInstance = new $this->controller($controllerName, $this->action, $this->params, $this);
+        $hasActionFunction = (int)method_exists($controllerInstance, $this->action);
+        $method = $hasActionFunction ? $this->action : 'index';
+        $controllerInstance->$method();
+    }
+
+    function includeControllerClass() {
+        require_once($this->basePath . DS . "controller" . DS . $this->controller . "Controller.php");
+    }
+
+    function includeNecessaryFile() {
+        echo $this->basePath . DS . "framwork" . DS . "Controller.php";
+        require_once($this->basePath . DS . "framwork" . DS . "Controller.php");
     }
 }

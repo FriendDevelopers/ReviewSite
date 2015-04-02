@@ -3,11 +3,15 @@ class Controller {
     public $name;
     public $actionName;
     public $rootPath;
+    public $app;
+    public $params;
 
-    function __construct($name, $actionName) {
-        $this->rootPath = ROOT . DS . ".." . DS;
+    function __construct($name, $actionName, $params, $app) {
+        $this->rootPath = ROOT;
         $this->name = $name;
         $this->actionName = $actionName;
+        $this->params = $params;
+        $this->app = $app;
     }
 
     function render($modelView = array()) {
