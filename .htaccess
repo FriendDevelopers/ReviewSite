@@ -4,8 +4,8 @@ Options +FollowSymLinks
     SetEnv HTTP_MOD_REWRITE On
     RewriteEngine on
 #   RewriteBase /
-    RewriteRule ^$   framwork/    [L]
-    RewriteRule (.*) framwork/$1  [L]
+    RewriteRule ^$   framework/    [L]
+    RewriteRule (.*) framework/$1  [L]
 </IfModule>
 
 <FilesMatch "\.(htaccess|htpasswd|ini|log|sh|inc|bak|psd|DS_Store|project)$">
