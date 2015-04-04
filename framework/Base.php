@@ -90,6 +90,6 @@ class Base {
     }
 
     function includeNecessaryFile() {
-        require_once($this->basePath . DS . "framwork" . DS . "Controller.php");
+        require_once($this->basePath . DS . "framework" . DS . "Controller.php");
     }
 }
