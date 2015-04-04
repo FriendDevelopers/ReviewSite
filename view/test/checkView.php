@@ -1,4 +1,4 @@
 <?php
 echo "Worked";
-echo $a;
+echo $name;
 echo $b;

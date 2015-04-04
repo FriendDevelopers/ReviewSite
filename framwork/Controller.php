@@ -23,7 +23,12 @@ class Controller {
                 require($this->rootPath . DS . 'view' . DS . "layout" . DS . $this->layout . ".php");
             }
         } else {
-            include($this->rootPath . DS . "view" . DS . $this->name . DS . $this->actionName . ".php");
+            $content = $this->getContent($modelView);
+            if(isset($this->layout)) {
+                require($this->rootPath . DS . 'view' . DS . "layout" . DS . $this->layout . ".php");
+            } else {
+                echo $content;
+            }
         }
     }
 
@@ -37,7 +42,7 @@ class Controller {
         echo json_encode($data);
     }
 
-    function getContent($modelView) {
+    function getContent($modelView = array()) {
         $viewFile = "";
         if(isset($modelView['view'])) {
             $viewFile = $this->rootPath . DS . 'view' . DS . $this->name . DS . $modelView['view'] . ".php";

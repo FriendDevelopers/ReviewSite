@@ -3,6 +3,11 @@
 Class TestController extends Controller {
     function checkView() {
         $this->layout = "main";
-        $this->render(array("view"=>"checkView","model"=> array("a"=>"Yusuf", 'b'=> "jata")));
+        $this->render(array("view"=>"checkView","model"=> array("name"=>"Yusuf", 'b'=> "jata")));
+    }
+
+    function oishee() {
+        $this->layout = "main";
+        $this->render();
     }
 }
