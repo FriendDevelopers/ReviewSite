@@ -76,10 +76,9 @@ class Base {
     function dispatch(){
         $this->parseRoute();
         $this->includeControllerClass();
-        $controllerName = $this->controller;
         $this->controller .= 'Controller';
         $this->controller = class_exists($this->controller) ? $this->controller : 'Controller';
-        $controllerInstance = new $this->controller($controllerName, $this->action, $this->params, $this);
+        $controllerInstance = new $this->controller($this->params, $this);
         $hasActionFunction = (int)method_exists($controllerInstance, $this->action);
         $method = $hasActionFunction ? $this->action : 'index';
         $controllerInstance->$method();
