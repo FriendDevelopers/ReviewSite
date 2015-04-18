@@ -39,9 +39,9 @@ class Controller {
     function getContent($modelView = array()) {
         $viewFile = "";
         if(isset($modelView['view'])) {
-            $viewFile = $this->app->basePath . DS . 'view' . DS . $this->name . DS . $modelView['view'] . ".php";
+            $viewFile = $this->app->basePath . DS . 'view' . DS . $this->app->controller . DS . $modelView['view'] . ".php";
         } else {
-            $viewFile = $this->app->basePath . DS . "view" . DS . $this->name . DS . $this->actionName . ".php";
+            $viewFile = $this->app->basePath . DS . "view" . DS . $this->app->controller . DS . $this->app->action . ".php";
         }
         if(isset($modelView['model'])) {
             if(is_array($modelView['model'])) {

@@ -1,6 +1,7 @@
 <?php
 class Base {
     public $basePath;
+    public $controllerName;
     public $controller;
     public $id;
     public $action;
@@ -18,27 +19,27 @@ class Base {
         $id = false;
         if (isset($this->route)){
             $path = $this->route;
-            $cai =  '/^([\w]+)\/([\w]+)\/([\d]+).*$/';  //  controller/action/id
-            $ci =   '/^([\w]+)\/([\d]+).*$/';           //  controller/id
-            $ca =   '/^([\w]+)\/([\w]+).*$/';           //  controller/action
+            $cai =  '/^([\w]+)\/([\w]+)\/([\d]+).*$/';  //  controllerName/action/id
+            $ci =   '/^([\w]+)\/([\d]+).*$/';           //  controllerName/id
+            $ca =   '/^([\w]+)\/([\w]+).*$/';           //  controllerName/action
             $c =    '/^([\w]+).*$/';                    //  action
             $i =    '/^([\d]+).*$/';                    //  id
             $matches = array();
             if (empty($path)){
-                $this->controller = 'index';
+                $this->controllerName = 'index';
                 $this->action = 'index';
             } else if (preg_match($cai, $path, $matches)){
-                $this->controller = $matches[1];
+                $this->controllerName = $matches[1];
                 $this->action = $matches[2];
                 $id = $matches[3];
             } else if (preg_match($ci, $path, $matches)){
-                $this->controller = $matches[1];
+                $this->controllerName = $matches[1];
                 $id = $matches[2];
             } else if (preg_match($ca, $path, $matches)){
-                $this->controller = $matches[1];
+                $this->controllerName = $matches[1];
                 $this->action = $matches[2];
             } else if (preg_match($c, $path, $matches)){
-                $this->controller = $matches[1];
+                $this->controllerName = $matches[1];
                 $this->action = 'index';
             } else if (preg_match($i, $path, $matches)){
                 $id = $matches[1];
@@ -75,20 +76,21 @@ class Base {
 
     function dispatch(){
         $this->parseRoute();
-        $this->includeControllerClass();
-        $this->controller .= 'Controller';
-        $this->controller = class_exists($this->controller) ? $this->controller : 'Controller';
-        $controllerInstance = new $this->controller($this->params, $this);
-        $hasActionFunction = (int)method_exists($controllerInstance, $this->action);
+        $this->includecontrollerNameClass();
+        $this->controller .= $this->controllerName;
+        $this->controllerName .= 'Controller';
+        $this->controllerName = class_exists($this->controllerName) ? $this->controllerName : 'controllerName';
+        $controllerNameInstance = new $this->controllerName($this->params, $this);
+        $hasActionFunction = (int)method_exists($controllerNameInstance, $this->action);
         $method = $hasActionFunction ? $this->action : 'index';
-        $controllerInstance->$method();
+        $controllerNameInstance->$method();
     }
 
-    function includeControllerClass() {
-        require_once($this->basePath . DS . "controller" . DS . $this->controller . "Controller.php");
+    function includecontrollerNameClass() {
+        require_once($this->basePath . DS . "controller" . DS . $this->controllerName . "Controller.php");
     }
 
     function includeNecessaryFile() {
-        require_once($this->basePath . DS . "framework" . DS . "Controller.php");
+        require_once($this->basePath . DS . "framework" . DS . "controller.php");
     }
 }
