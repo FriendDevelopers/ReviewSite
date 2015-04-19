@@ -10,4 +10,9 @@ Class TestController extends Controller {
         $this->layout = "main";
         $this->render();
     }
+
+    function home(){
+        $this->layout = "main";
+        $this->render();
+    }
 }
