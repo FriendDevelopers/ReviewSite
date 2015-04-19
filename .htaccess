@@ -3,10 +3,9 @@ Options +FollowSymLinks
     # Tell PHP that the mod_rewrite module is ENABLED.
     SetEnv HTTP_MOD_REWRITE On
     RewriteEngine on
-#   RewriteBase /
-    RewriteCond %{REQUEST_FILENAME} !-f
-	RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI}  !(\.png|\.jpg|\.gif|\.jpeg|\.bmp|\.css|\.js)$
     RewriteRule ^$   framework/    [L]
+    RewriteCond %{REQUEST_URI}  !(\.png|\.jpg|\.gif|\.jpeg|\.bmp|\.css|\.js)$
     RewriteRule (.*) framework/$1  [L]
 </IfModule>
 
