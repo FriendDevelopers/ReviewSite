@@ -36,7 +36,9 @@
                             </div>
                         </div>
                         <div class="button-container">
-                            <button id="header-search-submit" class="ybtn ybtn-primary header-button" value="submit" type="submit" title="Search" tabindex="3"></button>
+                            <button id="header-search-submit" class="ybtn ybtn-primary header-button" value="submit" type="submit" title="Search" tabindex="3">
+                            <i class="i ig-common_sprite i-search-common_sprite"></i>
+                            </button>
                         </div>
                     </form>
                     <ul id="header-nav" class="header-nav pull-left">
