@@ -159,7 +159,7 @@ body::before {
     flex-shrink: 0;
 }
 .ig-common_sprite {
-    background-image: url("/image/search.png");
+    background-image: url("../image/search.png");
     background-position: -999px -999px;
     display: inline-block;
     height: 16px;
@@ -191,7 +191,7 @@ body::before {
     background-attachment: scroll;
     background-clip: border-box;
     background-color: rgba(0, 0, 0, 0);
-    background-image: url("/image/logo_food.png");
+    background-image: url("../image/logo_food.png");
     background-origin: padding-box;
     background-position: 0 0;
     background-repeat: no-repeat;
