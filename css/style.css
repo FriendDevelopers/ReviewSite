@@ -180,7 +180,7 @@ body::before {
     background: -ms-linear-gradient(top, #336633 100%,#336633 100%); /* IE10+ */
     background: linear-gradient(to bottom, #336633 100%,#336633 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#336633', endColorstr='#336633',GradientType=0 ); /* IE6-9 */
-    box-shadow: 0 0 5px rgba(0, 128, 0, 1.0);
+    box-shadow: 0 0 5px rgb(51, 102, 64);
     font-size: 14px;
     line-height: 1.28571em;
     min-width: 1020px;
