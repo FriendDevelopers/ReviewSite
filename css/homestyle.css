@@ -83,6 +83,6 @@
     background-color:cadetblue;
     height:300px;
     width:500px;
-    float:left;
-
+    float:right;
+    margin-top: 10px;
 }
