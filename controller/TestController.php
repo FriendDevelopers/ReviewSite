@@ -15,4 +15,9 @@ Class TestController extends Controller {
         $this->layout = "main";
         $this->render();
     }
+
+    function restaurantView1(){
+        $this->layout = "main";
+        $this->render();
+    }
 }
