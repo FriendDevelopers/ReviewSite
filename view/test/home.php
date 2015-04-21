@@ -9,7 +9,7 @@
 
 <body>
 <div class="pageLayout">
-    <div class="topRest"> Top Restaurent</div>
+    <div class="topRest"> Top Restaurant </div>
     <div class="topReviewers">
         <h2 class="tr_title ">
             <span class="title_left"></span>
