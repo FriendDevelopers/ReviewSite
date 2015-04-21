@@ -14,14 +14,14 @@
     background-color: bisque;
     height:300px;
     width:590px;
-    float:left;
+    display: inline-block;
 }
 
 .topReviewers{
     height:300px;
     width:398px;
     position: relative;
-    float:right;
+    display: inline-block;
     border-color: #c8c8c8;
     border-style: solid;
     border-width: 1px;
@@ -31,7 +31,7 @@
     border-top-right-radius: 4px;
     }
 
-.topReviewers .title {
+.topReviewers .tr_title {
     background-attachment: scroll;
     background-clip: border-box;
     background-color: #e4e4e5;
@@ -68,13 +68,81 @@
     right: 10px;
     top: 0;
 }
+
+.topReviewers div.tr_body {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #fff;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 5px;
+}
+
+.user_item {
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-left: -2px;
+    margin-right: -2px;
+    margin-top: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+    vertical-align: top;
+    width: 88%;
+}
+
+.tr_body a {
+    outline-color: -moz-use-text-color;
+    outline-style: none;
+    outline-width: medium;
+    text-decoration-color: -moz-use-text-color;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+}
+
+a {
+    color: #ff5a00;
+    font-size: 12px;
+}
+
+div.clear::after {
+    clear: both !important;
+    content: "." !important;
+    display: block !important;
+    height: 0 !important;
+    visibility: hidden !important;
+}
+.clear {
+    clear: both;
+    float: none !important;
+}
+
+.user_item p {
+    font-size: 10px;
+}
+
+.user_item img {
+    padding-top: 4px;
+}
 .revTab {
     clear: both;
     line-height:30px;
     background-color: aquamarine;
     height:300px;
     width:500px;
-    float:left;
+    display: inline-block;
 
 }
 
@@ -82,7 +150,7 @@
     line-height:30px;
     background-color:cadetblue;
     height:300px;
-    width:500px;
-    float:right;
+    width:490px;
+    display: inline-block;
     margin-top: 10px;
 }
