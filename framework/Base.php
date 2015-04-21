@@ -93,4 +93,13 @@ class Base {
     function includeNecessaryFile() {
         require_once($this->basePath . DS . "framework" . DS . "controller.php");
     }
+
+    function absoluteUrl() {
+        return $_SERVER['REQUEST_SCHEME'] . ":" .  ($_SERVER['SERVER_PORT'] == 80 ? "": $_SERVER['SERVER_PORT']) . "//" .
+        $_SERVER['HTTP_HOST'] . $this->relativeUrl();
+    }
+
+    function relativeUrl() {
+        return  str_replace($this->route,"", (strpos($_SERVER['REQUEST_URI'],'?') !== false ? $_SERVER['REQUEST_URI'] : ($_SERVER['REQUEST_URI'] . "?") ));
+    }
 }
