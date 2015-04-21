@@ -7,15 +7,15 @@
         <span class="ratings">
             <?php
             for($x=1;$x<=$starNumber;$x++) {
-                echo '<img src="http://localhost:63342/ReviewSite/view/image/star.ico" />';
+                echo '<img src="/ReviewSite/image/star.ico" />';
             }
             if (strpos($starNumber,'.')) {
-                echo '<img src="http://localhost:63342/ReviewSite/view/image/star_half.ico" />';
+                echo '<img src="/ReviewSite/image/star_half.ico" />';
                 $x++;
             }
 
             while ($x<=5) {
-                echo '<img src="http://localhost:63342/ReviewSite/view/image/star_empty.ico" />';
+                echo '<img src="/ReviewSite/image/star_empty.ico" />';
                 $x++;
             }
             ?>
@@ -29,10 +29,10 @@
     </div>
 
     <div class="image-gallery">
-        <img src="http://localhost:63342/ReviewSite/view/image/image01.jpg" width="200" height="200" />
-        <img src="http://localhost:63342/ReviewSite/view/image/image02.jpg" width="200" height="200" />
-        <img src="http://localhost:63342/ReviewSite/view/image/image03.jpg" width="200" height="200" />
-        <img src="http://localhost:63342/ReviewSite/view/image/image04.jpg" width="200" height="200" />
+        <img src="/ReviewSite/image/image01.jpg" width="200" height="200" />
+        <img src="/ReviewSite/image/image02.jpg" width="200" height="200" />
+        <img src="/ReviewSite/image/image03.jpg" width="200" height="200" />
+        <img src="/ReviewSite/image/image04.jpg" width="200" height="200" />
     </div>
 
     <div class="review-container">
@@ -48,15 +48,15 @@
             <?php
             $starNumber=3;
             for($x=1;$x<=$starNumber;$x++) {
-                echo '<img src="http://localhost:63342/ReviewSite/view/image/star.ico" />';
+                echo '<img src="/ReviewSite/image/star.ico" />';
             }
             if (strpos($starNumber,'.')) {
-               echo '<img src="http://localhost:63342/ReviewSite/view/image/star_half.ico" />';
+               echo '<img src="/ReviewSite/image/star_half.ico" />';
                 $x++;
             }
 
             while ($x<=5) {
-                echo '<img src="http://localhost:63342/ReviewSite/view/image/star_empty.ico" />';
+                echo '<img src="/ReviewSite/image/star_empty.ico" />';
                 $x++;
             }
             ?>
@@ -75,15 +75,15 @@
             <?php
             $starNumber=3.5;
             for($x=1;$x<=$starNumber;$x++) {
-                echo '<img src="http://localhost:63342/ReviewSite/view/image/star.ico" />';
+                echo '<img src="/ReviewSite/image/star.ico" />';
             }
             if (strpos($starNumber,'.')) {
-                echo '<img src="http://localhost:63342/ReviewSite/view/image/star_half.ico" />';
+                echo '<img src="/ReviewSite/image/star_half.ico" />';
                 $x++;
             }
 
             while ($x<=5) {
-                echo '<img src="http://localhost:63342/ReviewSite/view/image/star_empty.ico" />';
+                echo '<img src="/ReviewSite/image/star_empty.ico" />';
                 $x++;
             }
             ?>
