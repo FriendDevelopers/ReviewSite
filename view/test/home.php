@@ -61,6 +61,10 @@
 
                     <div class="post-review-actions clearfix yform">
                         <div class="pull-left">
+                            <a id="js_6f" class="UFICommentStickerButton" data-reactid=".gb.1:4.0.$right.0.0.0.1.1" href="#" data-tooltip-alignh="center" data-hover="tooltip" aria-label="Post a sticker">
+                                <div class="UFICommentStickerIcon" data-reactid=".gb.1:4.0.$right.0.0.0.1.1.0" tabindex="0">
+                                </div>
+                            </a>
 
                         </div>
                         <div class="action-buttons" data-component-bound="true" style="display: block;">

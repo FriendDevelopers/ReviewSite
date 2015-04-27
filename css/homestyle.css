@@ -378,6 +378,26 @@ small {
     float: left;
 }
 
+.UFICommentStickerButton{
+    cursor:pointer;
+    display: inline-block;
+    outline-style:none;
+    outline-width: 0px;
+}
+
+._5vsj .UFICommentStickerIcon {
+    margin:9px 10px;
+}
+
+.UFICommentStickerIcon{
+    background-image:url(../image/smile_sticker.png);
+    background-repeat:no-repeat;
+    background-size:auto;
+    height:14px;
+    margin:5px 6px 5px 4px;
+    width:14px
+}
+
 .myReview .action-buttons {
     display: none;
     float: right;
