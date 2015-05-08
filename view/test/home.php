@@ -406,6 +406,7 @@
 
     </div>
 
+    <div class="column column-beta sidebar">
     <!--top reviewers-->
     <div class="topReviewers">
         <h2 class="tr_title ">
@@ -461,301 +462,287 @@
     </div>
 
     <!--top restaurants-->
-
-    <div class="table_new table" id="home_rating">
-    <div class="title ">
+    <div class="table_new table_large" id="place_type">
+    <h1 class="title ">
         <span class="title_left"></span>
         <span class="title_right"></span>
-        Top Restaurants in United States            <a href="/place/index/aid/192" class="more">More</a>
-    </div><div style="padding-top:5px; " class="body">    <table width="100%" style="margin-bottom:0; border-collapse:collapse;" class="horizontal_list_table">
+        Top Restaurants        </h1><div style="padding:0; " class="body">    <table width="100%" style="margin-bottom:0; border-collapse:collapse;" class="horizontal_list_table">
     <thead style="  ">
-    <tr>    <th valign="middle" align="left" style="padding:0px 0 5px 41px;">Restaurant Name &amp; Address</th>
-        <th valign="middle" align="left" style="padding:0px 0 5px 9px;">Rating</th>
+    <tr>    <th width="50%" valign="middle" align="left" style="padding:5px 0 5px 5px;">
+            Restaurant Name                    <a class="sort_down" href="/browse/id/54/Asia.html?page=1&amp;sort=name&amp;direction=up">up</a>            </th>
+        <th width="35%" valign="middle" align="left" style="padding:5px 0 5px 0px;">
+            Address    </th>
+        <th width="15%" valign="middle" align="left" style="padding:5px 0 5px 0px;">
+            Rating                    <a class="sort_down" href="/browse/id/54/Asia.html?page=1&amp;sort=rating&amp;direction=up">up</a>            </th>
     </tr>
     </thead>
-    <tbody>            <tr>
-        <td align="left" style="padding:10px 0 5px 0px; border-bottom:1px solid #DFDFDF;">
-            <a href="/restaurants/Mavi-Bloomfield-Connecticut-185715.html" style="font-weight:normal;font-size:11px;font-weight:bold; float:left;">
-                <img width="27" height="36" class="photo_2454 mini" src="/upload/place/54/2454.41680.23454_mini.jpg">                </a>
-            <div style="padding:0px 0 0 5px; float:left; word-wrap:break-word; width:167px;">
-                <a href="/restaurants/Mavi-Bloomfield-Connecticut-185715.html" class="similar_places_view_place">
-                    Mavi                    </a>
-                <p class="similar_places_list_address">39 Jerome Avenue</p>
-                <p class="similar_palces_list_location">Bloomfield, Connecticut</p>
+    <tbody>
+        <tr id="module_place_list_tr">
+            <td>
+                <div style="padding:0px 5px 0 7px;">
+                    <a href="/restaurants/Barbara-s-Restaurant-Manila-Manila-198926.html" style="font-weight:normal; font-size:11px; word-wrap: break-word;">
+                        Barbara's Restaurant                    </a>
+                </div>
+            </td>
+            <td align="center" style="text-align:left;">
+                <div style="width:110px; padding:0 10px 0 0;" class="module_place_list_wrap">
+                    Plaza San Luis Complex,
+                    <br>
+                    Manila, Manila                </div>
+            </td>
+            <td align="left">
+                <div style="width:90px; padding:5px 0 5px 0;" class="module_place_list_wrap3">
+                    <div data="4.33333_5" class="place_ratings small" style="height: 16px; width: 80px; overflow: hidden; z-index: 1; position: relative;">
+                        <div class="jRatingColor" style="width: 69.3333px;">
+                        </div>
+                        <div class="jRatingAverage" style="width: 0px; top: -16px;">
+                        </div>
+                        <div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;">
+                        </div>
+                        <div class="jRatingColor" style="width: 69.3333px;"></div>
+                        <div class="jRatingAverage" style="width: 0px; top: -16px;"></div>
+                        <div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div>
+                    </div>
+                    <div class="num_review_box">
+                        <div>4.3/5.0</div>
+                        <div>
+                            <a href="/restaurants/rid/198926/Barbara-s-Restaurant-Manila-Manila/Reviews.html">
+                                4
+                            </a>
+                            <span>reviews</span>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    <tr id="module_place_list_tr">
+        <td>
+            <div style="padding:0px 5px 0 7px;">
+                <a href="/restaurants/village-the-soul-of-india-Ahmedabad-Gujarat-198082.html" style="font-weight:normal; font-size:11px; word-wrap: break-word;">
+                    village the soul of india                    </a>
             </div>
         </td>
-        <td align="left" style="padding:3px 0; border-bottom:1px solid #DFDFDF;">
-            <div style="padding:5px 0px 5px 10px; font-size:11px;">
-                <div style="margin-right: -5px; width: 80px; height: 16px; overflow: hidden; z-index: 1; position: relative;" data="4.88235_5" class="place_ratings small"><div class="jRatingColor" style="width: 78.1176px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div></div>
-                <div class="module_similar_place_list_rating">
-                    <div class="num_review_box">
-                        <div>4.9/5.0</div>
-                        <div>
-                            <a href="/restaurants/rid/185715/Mavi-Bloomfield-Connecticut/Reviews.html">
-                                32	        </a>
+        <td align="center" style="text-align:left;">
+            <div style="width:110px; padding:0 10px 0 0;" class="module_place_list_wrap">
+                3rd Floor, Himalaya Mall, Drive In Road, Memnagar,
+                <br>
+                Ahmedabad, Gujarat                </div>
+        </td>
+        <td align="left">
+            <div style="width:90px; padding:5px 0 5px 0;" class="module_place_list_wrap3">
+                <div data="4.2_5" class="place_ratings small" style="height: 16px; width: 80px; overflow: hidden; z-index: 1; position: relative;"><div class="jRatingColor" style="width: 67.2px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div><div class="jRatingColor" style="width: 67.2px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div></div>
+                <div class="num_review_box">
+                    <div>4.2/5.0</div>
+                    <div>
+                        <a href="/restaurants/rid/198082/village-the-soul-of-india-Ahmedabad-Gujarat/Reviews.html">
+                            3	        </a>
 	        <span>
 	            reviews	        </span>
-                        </div>
-                    </div>                    </div>
-            </div>
+                    </div>
+                </div>                </div>
         </td>
     </tr>
-    <tr>
-        <td align="left" style="padding:10px 0 5px 0px; border-bottom:1px solid #DFDFDF;">
-            <a href="/restaurants/Abracci-Cafe-Coral-Gables-Florida-33362.html" style="font-weight:normal;font-size:11px;font-weight:bold; float:left;">
-                <img width="36" height="36" src="/images/placepic.png">                </a>
-            <div style="padding:0px 0 0 5px; float:left; word-wrap:break-word; width:167px;">
-                <a href="/restaurants/Abracci-Cafe-Coral-Gables-Florida-33362.html" class="similar_places_view_place">
-                    Abracci Cafe                    </a>
-                <p class="similar_places_list_address">318 Aragon Ave</p>
-                <p class="similar_palces_list_location">Coral Gables, Florida</p>
+    <tr id="module_place_list_tr">
+        <td>
+            <div style="padding:0px 5px 0 7px;">
+                <a href="/restaurants/Zark-s-Burgers-Malate-Manila-198872.html" style="font-weight:normal; font-size:11px; word-wrap: break-word;">
+                    Zark's Burgers                    </a>
             </div>
         </td>
-        <td align="left" style="padding:3px 0; border-bottom:1px solid #DFDFDF;">
-            <div style="padding:5px 0px 5px 10px; font-size:11px;">
-                <div style="margin-right: -5px; width: 80px; height: 16px; overflow: hidden; z-index: 1; position: relative;" data="4.6875_5" class="place_ratings small"><div class="jRatingColor" style="width: 75px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div></div>
-                <div class="module_similar_place_list_rating">
-                    <div class="num_review_box">
-                        <div>4.7/5.0</div>
-                        <div>
-                            <a href="/restaurants/rid/33362/Abracci-Cafe-Coral-Gables-Florida/Reviews.html">
-                                14	        </a>
+        <td align="center" style="text-align:left;">
+            <div style="width:110px; padding:0 10px 0 0;" class="module_place_list_wrap">
+                2464 Archer’s Nook, Taft Avenue,,
+                <br>
+                Malate, Manila                </div>
+        </td>
+        <td align="left">
+            <div style="width:90px; padding:5px 0 5px 0;" class="module_place_list_wrap3">
+                <div data="4.16667_5" class="place_ratings small" style="height: 16px; width: 80px; overflow: hidden; z-index: 1; position: relative;"><div class="jRatingColor" style="width: 66.6667px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div><div class="jRatingColor" style="width: 66.6667px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div></div>
+                <div class="num_review_box">
+                    <div>4.2/5.0</div>
+                    <div>
+                        <a href="/restaurants/rid/198872/Zark-s-Burgers-Malate-Manila/Reviews.html">
+                            4	        </a>
 	        <span>
 	            reviews	        </span>
-                        </div>
-                    </div>                    </div>
-            </div>
+                    </div>
+                </div>                </div>
         </td>
     </tr>
-    <tr>
-        <td align="left" style="padding:10px 0 5px 0px; border-bottom:1px solid #DFDFDF;">
-            <a href="/restaurants/Romeo-s-Pizza-Canton-Ohio-198580.html" style="font-weight:normal;font-size:11px;font-weight:bold; float:left;">
-                <img width="36" height="36" src="/images/placepic.png">                </a>
-            <div style="padding:0px 0 0 5px; float:left; word-wrap:break-word; width:167px;">
-                <a href="/restaurants/Romeo-s-Pizza-Canton-Ohio-198580.html" class="similar_places_view_place">
-                    Romeo's Pizza                    </a>
-                <p class="similar_places_list_address">4887 Portage St NW</p>
-                <p class="similar_palces_list_location">Canton, Ohio</p>
+    <tr id="module_place_list_tr">
+        <td>
+            <div style="padding:0px 5px 0 7px;">
+                <a href="/restaurants/Conti-s-Bake-Shop-and-Restaurant-Taguig-Rizal-199080.html" style="font-weight:normal; font-size:11px; word-wrap: break-word;">
+                    Conti's Bake Shop and Restaurant                    </a>
             </div>
         </td>
-        <td align="left" style="padding:3px 0; border-bottom:1px solid #DFDFDF;">
-            <div style="padding:5px 0px 5px 10px; font-size:11px;">
-                <div style="margin-right: -5px; width: 80px; height: 16px; overflow: hidden; z-index: 1; position: relative;" data="4.66667_5" class="place_ratings small"><div class="jRatingColor" style="width: 74.6667px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div></div>
-                <div class="module_similar_place_list_rating">
-                    <div class="num_review_box">
-                        <div>4.7/5.0</div>
-                        <div>
-                            <a href="/restaurants/rid/198580/Romeo-s-Pizza-Canton-Ohio/Reviews.html">
-                                10	        </a>
+        <td align="center" style="text-align:left;">
+            <div style="width:110px; padding:0 10px 0 0;" class="module_place_list_wrap">
+                Unit 1C-17 Serendra, Bonifacio Global City,
+                <br>
+                Taguig, Rizal                </div>
+        </td>
+        <td align="left">
+            <div style="width:90px; padding:5px 0 5px 0;" class="module_place_list_wrap3">
+                <div data="4.16667_5" class="place_ratings small" style="height: 16px; width: 80px; overflow: hidden; z-index: 1; position: relative;"><div class="jRatingColor" style="width: 66.6667px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div><div class="jRatingColor" style="width: 66.6667px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div></div>
+                <div class="num_review_box">
+                    <div>4.2/5.0</div>
+                    <div>
+                        <a href="/restaurants/rid/199080/Conti-s-Bake-Shop-and-Restaurant-Taguig-Rizal/Reviews.html">
+                            4	        </a>
 	        <span>
 	            reviews	        </span>
-                        </div>
-                    </div>                    </div>
-            </div>
+                    </div>
+                </div>                </div>
         </td>
     </tr>
-    <tr>
-        <td align="left" style="padding:10px 0 5px 0px; border-bottom:1px solid #DFDFDF;">
-            <a href="/restaurants/Masse-s-Pastries-Berkeley-California-13881.html" style="font-weight:normal;font-size:11px;font-weight:bold; float:left;">
-                <img width="36" height="36" src="/images/placepic.png">                </a>
-            <div style="padding:0px 0 0 5px; float:left; word-wrap:break-word; width:167px;">
-                <a href="/restaurants/Masse-s-Pastries-Berkeley-California-13881.html" class="similar_places_view_place">
-                    Masse's Pastries                    </a>
-                <p class="similar_places_list_address">1469 Shattuck St</p>
-                <p class="similar_palces_list_location">Berkeley, California</p>
+    <tr id="module_place_list_tr">
+        <td>
+            <div style="padding:0px 5px 0 7px;">
+                <a href="/restaurants/CASA-VERDE-Cebu-City-Cebu-198842.html" style="font-weight:normal; font-size:11px; word-wrap: break-word;">
+                    CASA VERDE                    </a>
             </div>
         </td>
-        <td align="left" style="padding:3px 0; border-bottom:1px solid #DFDFDF;">
-            <div style="padding:5px 0px 5px 10px; font-size:11px;">
-                <div style="margin-right: -5px; width: 80px; height: 16px; overflow: hidden; z-index: 1; position: relative;" data="4.63636_5" class="place_ratings small"><div class="jRatingColor" style="width: 74.1818px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div></div>
-                <div class="module_similar_place_list_rating">
-                    <div class="num_review_box">
-                        <div>4.6/5.0</div>
-                        <div>
-                            <a href="/restaurants/rid/13881/Masse-s-Pastries-Berkeley-California/Reviews.html">
-                                9	        </a>
+        <td align="center" style="text-align:left;">
+            <div style="width:110px; padding:0 10px 0 0;" class="module_place_list_wrap">
+                stall 304, 3rd level The Terraces Ayala Center Cebu,
+                <br>
+                Cebu City, Cebu                </div>
+        </td>
+        <td align="left">
+            <div style="width:90px; padding:5px 0 5px 0;" class="module_place_list_wrap3">
+                <div data="4_5" class="place_ratings small" style="height: 16px; width: 80px; overflow: hidden; z-index: 1; position: relative;"><div class="jRatingColor" style="width: 64px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div><div class="jRatingColor" style="width: 64px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div></div>
+                <div class="num_review_box">
+                    <div>4.0/5.0</div>
+                    <div>
+                        <a href="/restaurants/rid/198842/CASA-VERDE-Cebu-City-Cebu/Reviews.html">
+                            3	        </a>
 	        <span>
 	            reviews	        </span>
-                        </div>
-                    </div>                    </div>
-            </div>
+                    </div>
+                </div>                </div>
         </td>
     </tr>
-    <tr>
-        <td align="left" style="padding:10px 0 5px 0px; border-bottom:1px solid #DFDFDF;">
-            <a href="/restaurants/La-Fleur-De-Lis-Lovettsville-Virginia-166785.html" style="font-weight:normal;font-size:11px;font-weight:bold; float:left;">
-                <img width="36" height="36" src="/images/placepic.png">                </a>
-            <div style="padding:0px 0 0 5px; float:left; word-wrap:break-word; width:167px;">
-                <a href="/restaurants/La-Fleur-De-Lis-Lovettsville-Virginia-166785.html" class="similar_places_view_place">
-                    La Fleur De Lis                    </a>
-                <p class="similar_places_list_address">2 South Church Street</p>
-                <p class="similar_palces_list_location">Lovettsville, Virginia</p>
+    <tr id="module_place_list_tr">
+        <td>
+            <div style="padding:0px 5px 0 7px;">
+                <a href="/restaurants/Ziggurat-Cuisine-Makati-Rizal-198764.html" style="font-weight:normal; font-size:11px; word-wrap: break-word;">
+                    Ziggurat Cuisine                    </a>
             </div>
         </td>
-        <td align="left" style="padding:3px 0; border-bottom:1px solid #DFDFDF;">
-            <div style="padding:5px 0px 5px 10px; font-size:11px;">
-                <div style="margin-right: -5px; width: 80px; height: 16px; overflow: hidden; z-index: 1; position: relative;" data="4.63636_5" class="place_ratings small"><div class="jRatingColor" style="width: 74.1818px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div></div>
-                <div class="module_similar_place_list_rating">
-                    <div class="num_review_box">
-                        <div>4.6/5.0</div>
-                        <div>
-                            <a href="/restaurants/rid/166785/La-Fleur-De-Lis-Lovettsville-Virginia/Reviews.html">
-                                9	        </a>
+        <td align="center" style="text-align:left;">
+            <div style="width:110px; padding:0 10px 0 0;" class="module_place_list_wrap">
+                101, Sunette Tower, Makati Ave corner Durban St.,
+                <br>
+                Makati, Rizal                </div>
+        </td>
+        <td align="left">
+            <div style="width:90px; padding:5px 0 5px 0;" class="module_place_list_wrap3">
+                <div data="4_5" class="place_ratings small" style="height: 16px; width: 80px; overflow: hidden; z-index: 1; position: relative;"><div class="jRatingColor" style="width: 64px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div><div class="jRatingColor" style="width: 64px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div></div>
+                <div class="num_review_box">
+                    <div>4.0/5.0</div>
+                    <div>
+                        <a href="/restaurants/rid/198764/Ziggurat-Cuisine-Makati-Rizal/Reviews.html">
+                            3	        </a>
 	        <span>
 	            reviews	        </span>
-                        </div>
-                    </div>                    </div>
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td align="left" style="padding:10px 0 5px 0px; border-bottom:1px solid #DFDFDF;">
-            <a href="/restaurants/Robin-s-Woodfire-Bbq-Grill-Pasadena-California-172479.html" style="font-weight:normal;font-size:11px;font-weight:bold; float:left;">
-                <img width="36" height="36" src="/images/placepic.png">                </a>
-            <div style="padding:0px 0 0 5px; float:left; word-wrap:break-word; width:167px;">
-                <a href="/restaurants/Robin-s-Woodfire-Bbq-Grill-Pasadena-California-172479.html" class="similar_places_view_place">
-                    Robin's Woodfire Bbq &amp; Grill                    </a>
-                <p class="similar_places_list_address">395 N. Rosemead Blvd</p>
-                <p class="similar_palces_list_location">Pasadena, California</p>
-            </div>
-        </td>
-        <td align="left" style="padding:3px 0; border-bottom:1px solid #DFDFDF;">
-            <div style="padding:5px 0px 5px 10px; font-size:11px;">
-                <div style="margin-right: -5px; width: 80px; height: 16px; overflow: hidden; z-index: 1; position: relative;" data="4.61905_5" class="place_ratings small"><div class="jRatingColor" style="width: 73.9048px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div></div>
-                <div class="module_similar_place_list_rating">
-                    <div class="num_review_box">
-                        <div>4.6/5.0</div>
-                        <div>
-                            <a href="/restaurants/rid/172479/Robin-s-Woodfire-Bbq-Grill-Pasadena-California/Reviews.html">
-                                19	        </a>
-	        <span>
-	            reviews	        </span>
-                        </div>
-                    </div>                    </div>
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td align="left" style="padding:10px 0 5px 0px; border-bottom:1px solid #DFDFDF;">
-            <a href="/restaurants/Nobu-New-York-New-York-65725.html" style="font-weight:normal;font-size:11px;font-weight:bold; float:left;">
-                <img width="36" height="36" src="/images/placepic.png">                </a>
-            <div style="padding:0px 0 0 5px; float:left; word-wrap:break-word; width:167px;">
-                <a href="/restaurants/Nobu-New-York-New-York-65725.html" class="similar_places_view_place">
-                    Nobu                    </a>
-                <p class="similar_places_list_address">105 Hudson St</p>
-                <p class="similar_palces_list_location">New York, New York</p>
-            </div>
-        </td>
-        <td align="left" style="padding:3px 0; border-bottom:1px solid #DFDFDF;">
-            <div style="padding:5px 0px 5px 10px; font-size:11px;">
-                <div style="margin-right: -5px; width: 80px; height: 16px; overflow: hidden; z-index: 1; position: relative;" data="4.61111_5" class="place_ratings small"><div class="jRatingColor" style="width: 73.7778px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div></div>
-                <div class="module_similar_place_list_rating">
-                    <div class="num_review_box">
-                        <div>4.6/5.0</div>
-                        <div>
-                            <a href="/restaurants/rid/65725/Nobu-New-York-New-York/Reviews.html">
-                                16	        </a>
-	        <span>
-	            reviews	        </span>
-                        </div>
-                    </div>                    </div>
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td align="left" style="padding:10px 0 5px 0px; border-bottom:1px solid #DFDFDF;">
-            <a href="/restaurants/Harold-s-Chicken-Shack-Chicago-Heights-Illinois-17586.html" style="font-weight:normal;font-size:11px;font-weight:bold; float:left;">
-                <img width="36" height="36" src="/images/placepic.png">                </a>
-            <div style="padding:0px 0 0 5px; float:left; word-wrap:break-word; width:167px;">
-                <a href="/restaurants/Harold-s-Chicken-Shack-Chicago-Heights-Illinois-17586.html" class="similar_places_view_place">
-                    Harold's Chicken Shack                    </a>
-                <p class="similar_places_list_address">801 E Lincoln Hwy</p>
-                <p class="similar_palces_list_location">Chicago Heights, Illinois</p>
-            </div>
-        </td>
-        <td align="left" style="padding:3px 0; border-bottom:1px solid #DFDFDF;">
-            <div style="padding:5px 0px 5px 10px; font-size:11px;">
-                <div style="margin-right: -5px; width: 80px; height: 16px; overflow: hidden; z-index: 1; position: relative;" data="4.6_5" class="place_ratings small"><div class="jRatingColor" style="width: 73.6px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div></div>
-                <div class="module_similar_place_list_rating">
-                    <div class="num_review_box">
-                        <div>4.6/5.0</div>
-                        <div>
-                            <a href="/restaurants/rid/17586/Harold-s-Chicken-Shack-Chicago-Heights-Illinois/Reviews.html">
-                                8	        </a>
-	        <span>
-	            reviews	        </span>
-                        </div>
-                    </div>                    </div>
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td align="left" style="padding:10px 0 5px 0px; border-bottom:1px solid #DFDFDF;">
-            <a href="/restaurants/Maddox-Ranch-House-Brigham-City-Utah-40503.html" style="font-weight:normal;font-size:11px;font-weight:bold; float:left;">
-                <img width="36" height="36" src="/images/placepic.png">                </a>
-            <div style="padding:0px 0 0 5px; float:left; word-wrap:break-word; width:167px;">
-                <a href="/restaurants/Maddox-Ranch-House-Brigham-City-Utah-40503.html" class="similar_places_view_place">
-                    Maddox Ranch House                    </a>
-                <p class="similar_places_list_address">1900 S Highway 89</p>
-                <p class="similar_palces_list_location">Brigham City, Utah</p>
-            </div>
-        </td>
-        <td align="left" style="padding:3px 0; border-bottom:1px solid #DFDFDF;">
-            <div style="padding:5px 0px 5px 10px; font-size:11px;">
-                <div style="margin-right: -5px; width: 80px; height: 16px; overflow: hidden; z-index: 1; position: relative;" data="4.6_5" class="place_ratings small"><div class="jRatingColor" style="width: 73.6px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div></div>
-                <div class="module_similar_place_list_rating">
-                    <div class="num_review_box">
-                        <div>4.6/5.0</div>
-                        <div>
-                            <a href="/restaurants/rid/40503/Maddox-Ranch-House-Brigham-City-Utah/Reviews.html">
-                                18	        </a>
-	        <span>
-	            reviews	        </span>
-                        </div>
-                    </div>                    </div>
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td align="left" style="padding:10px 0 5px 0px; border-bottom:1px solid #DFDFDF;">
-            <a href="/restaurants/Tastee-Sub-Shop-Edison-New-Jersey-65137.html" style="font-weight:normal;font-size:11px;font-weight:bold; float:left;">
-                <img width="36" height="36" src="/images/placepic.png">                </a>
-            <div style="padding:0px 0 0 5px; float:left; word-wrap:break-word; width:167px;">
-                <a href="/restaurants/Tastee-Sub-Shop-Edison-New-Jersey-65137.html" class="similar_places_view_place">
-                    Tastee Sub Shop                    </a>
-                <p class="similar_places_list_address">267 Plainfield Ave</p>
-                <p class="similar_palces_list_location">Edison, New Jersey</p>
-            </div>
-        </td>
-        <td align="left" style="padding:3px 0; border-bottom:1px solid #DFDFDF;">
-            <div style="padding:5px 0px 5px 10px; font-size:11px;">
-                <div style="margin-right: -5px; width: 80px; height: 16px; overflow: hidden; z-index: 1; position: relative;" data="4.6_5" class="place_ratings small"><div class="jRatingColor" style="width: 73.6px;"></div><div class="jRatingAverage" style="width: 0px; top: -16px;"></div><div class="jStar" style="width: 80px; height: 16px; top: -32px; background: url(&quot;/images/stars_2v.png&quot;) repeat-x scroll 0% 0% transparent;"></div></div>
-                <div class="module_similar_place_list_rating">
-                    <div class="num_review_box">
-                        <div>4.6/5.0</div>
-                        <div>
-                            <a href="/restaurants/rid/65137/Tastee-Sub-Shop-Edison-New-Jersey/Reviews.html">
-                                23	        </a>
-	        <span>
-	            reviews	        </span>
-                        </div>
-                    </div>                    </div>
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td valign="middle" align="center" colspan="3">
-            <a style="margin-top:3px; display:inline-block;" class="module_similar_place_list_view_on_map" href="/place/search/local_id/192                    ">
-                View on Map
-            </a>
+                    </div>
+                </div>                </div>
         </td>
     </tr>
     </tbody>
     </table>    </div>
     </div>
+    </div>
 
+    <div class="main-content-wrap main-content-wrap--separated">
+        <div class="content-container">
+            <div class="main-footer">
+                <div class="main-footer_section main-footer_menu clearfix">
+                    <div class="main-footer_item">
+                        <div class="footer-menu">
+                            <h3 class="footer-menu_header">About</h3>
+                            <ul class="footer-menu_list">
+                                <li class="footer-menu_item">
+                                    <a href="/about">About Yelp</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                    <a href="/guidelines">Content Guidelines</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                    <a href="/static?p=tos&amp;country=US">Terms of Service</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                    <a href="/tos/privacy_en_us_20150504">Privacy Policy</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                    <a href="http://www.yelp.com/static?p=privacy#third-parties">Ad Choices</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="main-footer_item">
+                        <div class="footer-menu">
+                            <h3 class="footer-menu_header">Discover</h3>
+                            <ul class="footer-menu_list">
+                                <li class="footer-menu_item">
+                                    <a href="/weekly_yelp">The Weekly Yelp</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                    <a href="http://officialblog.yelp.com">Yelp Blog</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                    <a href="http://www.yelp-support.com/?l=en_US">Support</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                     <a href="/yelpmobile?source=footer">Yelp Mobile</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                    <a href="http://www.yelp.com/developers">Developers</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                    <a href="/rss">RSS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main-footer_item">
+                        <div class="footer-menu">
+                            <h3 class="footer-menu_header">Yelp for Business Owners</h3>
+                            <ul class="footer-menu_list">
+                                <li class="footer-menu_item">
+                                    <a href="https://biz.yelp.com/">Claim your Business Page</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                    <a href="/advertise">Advertise on Yelp</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                    <a href="https://www.seatme.yelp.com">Yelp SeatMe</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                    <a href="https://biz.yelp.com/support/case_studies">Business Success Stories</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                    <a href="http://www.yelp-support.com/Yelp_for_Business_Owners?l=en_US">Business Support</a>
+                                </li>
+                                <li class="footer-menu_item">
+                                    <a href="https://biz.yelp.com/blog">Yelp Blog for Business Owners</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div role="presentation" class="main-footer_city-landscape-img responsive-hidden-small"></div>
+        <div class="main-footer_copyright">
+            Copyright &copy; 2004&ndash;2015 Yelp Inc. Yelp, <img class="main-footer_logo-copyright" alt="Yelp logo" src="http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9d213bfb766e/logo/logo_tiny.png">, <img class="main-footer_logo-burst" alt="Yelp burst" src="http://s3-media3.fl.yelpcdn.com/assets/2/www/img/86ec59fef415/logo/burst_tiny.png"> and related marks are registered trademarks of Yelp.
+        </div>
+    <!--Source: Freebase (http://www.freebase.com/), licensed under CC-BY (http://creativecommons.org/licenses/by/2.5/)-->
+    </div>
 
 </div>
-
 </body>
 </html>
