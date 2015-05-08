@@ -460,7 +460,6 @@
             </div>
         </div>
     </div>
-
     <!--top restaurants-->
     <div class="table_new table_large" id="place_type">
     <h1 class="title ">
@@ -652,6 +651,52 @@
     </tr>
     </tbody>
     </table>    </div>
+    </div>
+
+    <div class="upcomingEvents">
+        <h1 class="title ">
+            <span class="title_left"></span>
+            <span class="title_right"></span>
+            Upcoming Events
+        </h1>
+        <div class="fbEventsDashboardSection" data-store="{"date":"section1"}">
+            <div class="fbEventsDashboardSection" data-store="{"date":"2015-05-08"}">
+                <div id="dashboard_item_1375513602778247" class="_4cbb">
+                    <div class="fbEventDashboardItem">
+                        <div class="clearfix _a19">
+                            <div class="_1qdc lfloat _ohe">
+                                <a class="_mxp _mxq" href="/events/1375513602778247/?ref=2&ref_dashboard_filter=upcoming">
+                                    <div class="uiScaledImageContainer" style="width: 150px; height: 100px;">
+                                        <img class="scaledImageFitWidth img" width="150" height="193"
+                                             alt="The Institution of Engineers Bangladesh's photo." style="top:-13px;"
+                                             src="https://m.ak.fbcdn.net/sphotos-b.ak/hphotos-ak-xtp1/v/t1.0-9/s200x200/11138498_801924753233263_2097667677509367113_n.jpg?oh=2ee52d07606d1789c35fca812ce5bea9&oe=55C202E4&__gda__=1439641971_2dfc3fd7a9206ce8d618775aa44ef9ca">
+                                    </div>
+                                    <div class="_18im _mxs">
+                                        <div class="_38le">MAY</div>
+                                        <div class="_38lf">08</div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="_42ef">
+                                <div class="_3ydv">
+                                    <div class="_1qdd" aria-label="Young Engineers Summit" data-tooltip-display="overflow" data-hover="tooltip">
+                                        <a href="/events/1375513602778247/?ref=2&ref_dashboard_filter=upcoming">Young Engineers Summit </a>
+                                    </div>
+                                    <span class="_5p0a _4cbc">
+                                        <span>Today at 9:00am</span>
+                                    </span>
+                                    <div class="_5p0b fsm fwn fcg">
+                                        <span>
+                                            <span class="_5inl" aria-label="Ramna, Dhaka 1000, Bangladesh " data-tooltip-display="overflow" data-hover="tooltip">Ramna, Dhaka 1000, Bangladesh </span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     </div>
 
