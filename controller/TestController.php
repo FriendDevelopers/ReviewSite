@@ -6,13 +6,17 @@ Class TestController extends Controller {
         $this->render(array("view"=>"checkView","model"=> array("name"=>"Yusuf", 'b'=> "jata")));
     }
 
-    function oishee() {
+    function forum() {
         $this->layout = "main";
+        $this->render();
+        $this->layout = "footer";
         $this->render();
     }
 
     function home(){
         $this->layout = "main";
+        $this->render();
+        $this->layout = "footer";
         $this->render();
     }
 
@@ -20,4 +24,11 @@ Class TestController extends Controller {
         $this->layout = "main";
         $this->render();
     }
+    function profile(){
+        $this->layout = "main";
+        $this->render();
+        $this->layout = "footer";
+        $this->render();
+    }
+
 }
