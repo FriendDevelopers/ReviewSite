@@ -24,4 +24,11 @@ Class TestController extends Controller {
         $this->layout = "main";
         $this->render();
     }
+    function profile(){
+        $this->layout = "main";
+        $this->render();
+        $this->layout = "footer";
+        $this->render();
+    }
+
 }
