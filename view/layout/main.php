@@ -3,7 +3,8 @@
     <head>
         <title>Food Review Site</title>
         <link href="/ReviewSite/css/style.css" media="all" type="text/css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="/ReviewSite/css/restaurantView.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo $this->app->relativeUrl(); ?>css/restaurantView.css">
+        <script src="<?php echo $this->app->relativeUrl();?>js/test.js"></script>
     </head>
     <body id="yelp_main_body" class="country-us logged-in ytype jquery">
         <div>
