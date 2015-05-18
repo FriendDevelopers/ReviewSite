@@ -49,8 +49,6 @@
                                                             <label for="nickname">Nickname</label>
                                                             <span class="help-block">The Rock, Skipper, The Zen Master</span>
                                                             <input type="text" value="" size="30" name="nickname" maxlength="50" id="nickname" class="profile-form-textbox">
-
-
             <fieldset>
                 <label for="gender">Gender</label>
                 <label class="radio-check" for="f">
