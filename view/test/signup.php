@@ -507,7 +507,7 @@
     </div>
 
     <div class="picture-container">
-        <img src="../iamge/signup_button.png">
+        <img src="<?php echo $this->app->relativeUrl() ?>/image/signup_button.png">
     </div>
     </div>
 
