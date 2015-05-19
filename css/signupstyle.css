@@ -178,16 +178,9 @@ img {
 }
 .register .facebook {
     background: #415EA3;
-    background: -webkit-linear-gradient(#415EA3, #2E4A88);
-    background: -moz-linear-gradient(#415EA3, #2E4A88);
-    background: -o-linear-gradient(#415EA3, #2E4A88);
-    background: linear-gradient(#415ea3, #2e4a88);
-}
+    }
 .register .facebook:hover {
     background: #3B5591;
-    background: -webkit-linear-gradient(#3B5591, #2A437C);
-    background: -moz-linear-gradient(#3B5591, #2A437C);
-    background: -o-linear-gradient(#3B5591, #2A437C);
     background: linear-gradient(#3b5591, #2a437c);
 }
 .register .facebook a {
@@ -195,16 +188,10 @@ img {
 }
 .register .twitter {
     background: #41C0F3;
-    background: -webkit-linear-gradient(#41C0F3, #3FBAEC);
-    background: -moz-linear-gradient(#41C0F3, #3FBAEC);
-    background: -o-linear-gradient(#41C0F3, #3FBAEC);
     background: linear-gradient(#41c0f3, #3fbaec);
 }
 .register .twitter:hover {
     background: #3EB1DF;
-    background: -webkit-linear-gradient(#3EB1DF, #3EAAD6);
-    background: -moz-linear-gradient(#3EB1DF, #3EAAD6);
-    background: -o-linear-gradient(#3EB1DF, #3EAAD6);
     background: linear-gradient(#3eb1df, #3eaad6);
 }
 .register .twitter a {
