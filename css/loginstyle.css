@@ -1,0 +1,334 @@
+body::before {
+    z-index: 10000;
+}
+body {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #f5f5f1;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+}
+body {
+    -x-system-font: none;
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-feature-settings: normal;
+    font-kerning: auto;
+    font-language-override: normal;
+    font-size: 12px;
+    font-size-adjust: none;
+    font-stretch: normal;
+    font-style: normal;
+    font-synthesis: weight style;
+    font-variant-alternates: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-variant-position: normal;
+    font-weight: normal;
+    line-height: 1.2;
+}
+.main-content-wrap--box {
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
+.main-content-wrap {
+    min-width: 1020px;
+}
+.main-content-wrap--box > .content-container {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+.main-content-wrap--box > .content-container {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: white;
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-color: #ccccc8;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color: #ccccc8;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: #ccccc8;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: -moz-use-text-color;
+    border-top-style: none;
+    border-top-width: medium;
+    padding-bottom: 30px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 15px;
+}
+.content-container {
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0;
+    width: 960px;
+}
+.layout-block::before, .layout-block::after {
+    content: " ";
+    display: table;
+}
+.clearfix::before, .clearfix::after {
+    content: " ";
+    display: table;
+}
+.layout-block::after {
+    clear: both;
+}
+.clearfix::after {
+    clear: both;
+}
+.login-block {
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+}
+.layout-block {
+    margin-bottom: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 0;
+}
+
+.main > div {
+    display: inline-block;
+    margin-top: 10px;
+    width: 49%;
+}
+.register {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f0f0f0;
+    border-bottom-color: #72b372;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 7px;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color: #72b372;
+    border-left-style: solid;
+    border-left-width: 7px;
+    border-right-color: #72b372;
+    border-right-style: solid;
+    border-right-width: 7px;
+    border-top-color: #72b372;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-style: solid;
+    border-top-width: 7px;
+    box-shadow: 0 0 20px 0 #000000;
+    color: #444;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 420px;
+}
+.ytype h3, .ytype .h3 {
+    font-size: 16px;
+    line-height: 1.3125em;
+}
+.register h3 {
+    border-bottom-color: #72b372;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 0;
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.register div {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-bottom-color: -moz-use-text-color;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-image-outset: 0 0 0 0;
+    border-image-repeat: stretch stretch;
+    border-image-slice: 100% 100% 100% 100%;
+    border-image-source: none;
+    border-image-width: 1 1 1 1;
+    border-left-color: -moz-use-text-color;
+    border-left-style: none;
+    border-left-width: medium;
+    border-right-color: -moz-use-text-color;
+    border-right-style: none;
+    border-right-width: medium;
+    border-top-color: -moz-use-text-color;
+    border-top-style: none;
+    border-top-width: medium;
+    margin-bottom: 15px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+.register label {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: right;
+    width: 25%;
+}
+.register input[type="text"], .register input[type="password"] {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgba(0, 0, 0, 0.07);
+    background-image: none;
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+    font-size: 0.9em;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    width: 65%;
+}
+
+.formLabel {
+    margin-bottom: 5px;
+    margin-left: 140px;
+    margin-right: 0;
+    margin-top: 10px;
+}
+.formLabel, .formNote {
+    text-align: right;
+    color: #333;
+    font-size: 11px;
+    font-weight: 400;
+}
+.register .button {
+    font-size: 1.1em;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #59B969;
+    box-shadow: 0 1px 0 0 #60BD49 inset;
+    background: #63E651;
+    background: linear-gradient(#63e651, #42753e);
+    cursor: pointer;
+}
+.register .button:hover {
+    background: #51DB1C;
+    background: linear-gradient(#51db1c, #6ba061);
+}
+
+.layout-h .column {
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0;
+    width: 50%;
+}
+.layout-border .column-alpha {
+    border-right-color: #e5e5e1;
+    border-right-style: solid;
+    border-right-width: 1px;
+}
+.layout-border .column-beta {
+    box-shadow: -1px 0 0 #e5e5e1;
+}
+#login #login-to-signup {
+    padding-bottom: 30px;
+    padding-left: 38px;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: center;
+    width: 390px;
+}
+
+#login p {
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5px;
+}
+#login-to-signup h2, #login-to-signup p {
+    text-align: center;
+}
+p {
+    margin-bottom: 12px;
+}
+.header {
+    margin-bottom: 0px;
+    text-align: center;
+}
+h2 {
+    color: #336633;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.button {
+    font-size: 1.3em;
+    font: bold;
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid #59B969;
+    box-shadow: 0 1px 0 0 #60BD49 inset;
+    background: #63E651;
+    background: linear-gradient(#63e651, #42753e);
+    cursor: pointer;
+}
+.button:hover {
+    background: #51DB1C;
+    background: linear-gradient(#51db1c, #6ba061);
+}

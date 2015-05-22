@@ -45,7 +45,7 @@ h2 {
 .picture-container {
     box-sizing: border-box;
     float: right;
-    margin-top: 200px;
+    margin-top: 0px;
     min-height: 1px;
     padding-bottom: 0;
     padding-left: 15px;
@@ -147,55 +147,6 @@ img {
     margin: -10px 0 0 -25px;
     line-height: 20px;
 }
-.register .connect {
-    width: 400px;
-    margin: 0 auto;
-    text-align: center;
-}
-.register .social-buttons {
-    display: inline-block;
-    min-width: 150px;
-    height: 50px;
-    margin: 0 5px 10px;
-    border-radius: 10px;
-    text-shadow: 1px 1px 5px #000000;
-}
-.register .social-buttons a {
-    display: block;
-    height: 100%;
-    text-decoration: none;
-    color: #FFFFFF;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 10px;
-    padding-top: 15px;
-}
-.register .social-buttons span {
-    font-size: 30px;
-    margin-left: 35px;
-
-}
-.register .facebook {
-    background: #415EA3;
-    }
-.register .facebook:hover {
-    background: #3B5591;
-    background: linear-gradient(#3b5591, #2a437c);
-}
-.register .facebook a {
-    background: url(../image/fb_icon.png) no-repeat 5% 10%;
-}
-.register .twitter {
-    background: #41C0F3;
-    background: linear-gradient(#41c0f3, #3fbaec);
-}
-.register .twitter:hover {
-    background: #3EB1DF;
-    background: linear-gradient(#3eb1df, #3eaad6);
-}
-.register .twitter a {
-    background: url(../image/twitter-icon.png) no-repeat 6% 25%;
-}
 .legal-copy {
     color: #555;
     font-size: 12px;
@@ -230,4 +181,15 @@ a {
     text-decoration-line: none;
     text-decoration-style: solid;
 }
-
+.formLabel, .formNote {
+    color: #333;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: right;
+}
+.formLabel {
+    margin-bottom: 5px;
+    margin-left: 140px;
+    margin-right: 0;
+    margin-top: 10px;
+}

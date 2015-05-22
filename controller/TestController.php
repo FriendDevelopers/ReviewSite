@@ -36,5 +36,17 @@ Class TestController extends Controller {
         $this->layout = "footer";
         $this->render();
     }
+    function login(){
+        $this->layout = "main";
+        $this->render();
+        $this->layout = "footer";
+        $this->render();
+    }
+    function forgetpassword(){
+        $this->layout = "main";
+        $this->render();
+        $this->layout = "footer";
+        $this->render();
+    }
 
 }

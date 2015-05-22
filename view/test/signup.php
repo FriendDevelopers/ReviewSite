@@ -52,7 +52,7 @@
                                                 </div>
                                                 <div>
                                                     <label></label>
-                                                    <input type="submit" value="Create Account" id="create-account" class="button"/>
+                                                    <input type="submit" value="Sign Up" id="signup" class="button"/>
                                                 </div>
                                             </form>
                                             <div class="sep">
@@ -69,6 +69,13 @@
                                                         <span>Twitter</span>
                                                     </a>
                                                 </div>
+                                            </div>
+                                            <div><p class="legal-copy">Don't worry, we never post without your permission.</p></div>
+                                            <div class="sub-text-box">
+                                                <small class="subtle-text">
+                                                    Already on Food Bank?
+                                                    <a class="login-link">Log In</a>
+                                                </small>
                                             </div>
                                         </div>
                                     </div>
