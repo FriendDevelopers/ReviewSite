@@ -24,7 +24,7 @@
                         <div class="main">
                             <div class="one">
                                 <div class="register">
-                                    <h3>Create your account</h3>
+                                    <h3>Retrieve Your Password</h3>
                                     <form id="reg-form">
                                         <div>
                                             <label for="email">Email</label>
